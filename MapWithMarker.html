@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleMap</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            height: 50vh;
+            width: 100%;
+            background-color: lightblue;
+        }
+    </style>
+    <script defer src="mapWithMarker.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+</body>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEYMjAWWk24CozqbuVf2OLelGjkW5WLBM&callback=initMap"
+    type="text/javascript"></script>
+
+</html>
